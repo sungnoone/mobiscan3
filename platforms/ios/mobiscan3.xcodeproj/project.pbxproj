@@ -5,7 +5,13 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
+		03420DBDC413404ABF7BED08 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4459463C76D4A31B470AFFF /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		05014AB02FD6487DB3AA47C3 /* MWScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196890B89A0E4C148F010FED /* MWScannerViewController.m */; };
+		0631C66ED0B346F5AC2A54DB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD57C9D3371E41CD8D480D8F /* CoreVideo.framework */; };
+		0855676DF42649C1855E670B /* CDVMWBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 74915FD39691496B9C5583BE /* CDVMWBarcodeScanner.m */; };
+		18897CFCC3374CE785ED7023 /* flashbuttonon.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB1EF99781E482CA41A3094 /* flashbuttonon.png */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
@@ -25,6 +31,9 @@
 		308D05391370CCF300D202BF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
 		30A0434814DC770100060A13 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434314DC770100060A13 /* Localizable.strings */; };
 		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
+		33BC9B4C6E0145698B8B8426 /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C949E3E59A2427B8ACA696F /* CDVNotification.bundle */; };
+		37CF50609D36483A98D1954B /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A11FB4B850E4E0B9A6D6A8C /* CDVNotification.m */; };
+		4327B7175D96456B905304AF /* flashbuttonoff.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B9853B0EAF4473A351D55D /* flashbuttonoff.png */; };
 		5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEE5B34173C68D80009041E /* CoreLocation.framework */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
 		7E7966DE1810823500FA85AD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
@@ -37,22 +46,14 @@
 		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
-		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		37CF50609D36483A98D1954B /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A11FB4B850E4E0B9A6D6A8C /* CDVNotification.m */; };
-		33BC9B4C6E0145698B8B8426 /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C949E3E59A2427B8ACA696F /* CDVNotification.bundle */; };
-		0855676DF42649C1855E670B /* CDVMWBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 74915FD39691496B9C5583BE /* CDVMWBarcodeScanner.m */; };
-		05014AB02FD6487DB3AA47C3 /* MWScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196890B89A0E4C148F010FED /* MWScannerViewController.m */; };
-		BB536C31FA634530BDCDF3D2 /* MWOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B7ECC0373544848DF99B0B /* MWOverlay.m */; };
-		A4343F148EEB4BDABDEF2C25 /* MWScannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94A97DBF8624707B3E0295C /* MWScannerViewController.xib */; };
-		E82429A62A304A4FAABB9A92 /* libBarcodeScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE41F308EB9A40B99D6EADE1 /* libBarcodeScanner.a */; };
-		A5BEFE71B4AA4139A3CAA6B7 /* close_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 598812B55A3D44D0A20FA44E /* close_button.png */; };
-		18897CFCC3374CE785ED7023 /* flashbuttonon.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB1EF99781E482CA41A3094 /* flashbuttonon.png */; };
-		4327B7175D96456B905304AF /* flashbuttonoff.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B9853B0EAF4473A351D55D /* flashbuttonoff.png */; };
-		B8E21D4BF01F47D7955051D1 /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2DD381EC4548479EB9D3E2 /* overlay.png */; };
 		7E7EA869AB6447BDB0EC7F5B /* overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 423098ECADB84300AF718614 /* overlay@2x.png */; };
-		0631C66ED0B346F5AC2A54DB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD57C9D3371E41CD8D480D8F /* CoreVideo.framework */; };
+		A4343F148EEB4BDABDEF2C25 /* MWScannerViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = B94A97DBF8624707B3E0295C /* MWScannerViewController.xib */; };
+		A5BEFE71B4AA4139A3CAA6B7 /* close_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 598812B55A3D44D0A20FA44E /* close_button.png */; };
+		B8E21D4BF01F47D7955051D1 /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2DD381EC4548479EB9D3E2 /* overlay.png */; };
+		BB536C31FA634530BDCDF3D2 /* MWOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B7ECC0373544848DF99B0B /* MWOverlay.m */; };
+		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		E82429A62A304A4FAABB9A92 /* libBarcodeScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE41F308EB9A40B99D6EADE1 /* libBarcodeScanner.a */; };
 		FF1DC210B17E4041B7DA32F3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2DFADAC074436DAF4D5911 /* QuartzCore.framework */; };
-		03420DBDC413404ABF7BED08 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4459463C76D4A31B470AFFF /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,14 +74,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		081DC5C34BD04E4ABF4653FA /* CDVMWBarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVMWBarcodeScanner.h; path = com.manateeworks.barcodescanner/MWBarcodeScanner/CDVMWBarcodeScanner.h; sourceTree = "<group>"; };
+		0C949E3E59A2427B8ACA696F /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CDVNotification.bundle; sourceTree = "<group>"; };
+		196890B89A0E4C148F010FED /* MWScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWScannerViewController.m; path = com.manateeworks.barcodescanner/MWBarcodeScanner/MWScannerViewController.m; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* mobiscan3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobiscan3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* mobiscan3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobiscan3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2DD381EC4548479EB9D3E2 /* overlay.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; path = overlay.png; sourceTree = "<group>"; };
 		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = "CordovaLib/CordovaLib.xcodeproj"; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -99,8 +104,15 @@
 		30A0434714DC770100060A13 /* se */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = se; path = Localizable.strings; sourceTree = "<group>"; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* mobiscan3-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mobiscan3-Prefix.pch"; sourceTree = "<group>"; };
+		35B7ECC0373544848DF99B0B /* MWOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWOverlay.m; path = com.manateeworks.barcodescanner/MWBarcodeScanner/MWOverlay.m; sourceTree = "<group>"; };
+		423098ECADB84300AF718614 /* overlay@2x.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; path = "overlay@2x.png"; sourceTree = "<group>"; };
+		4F2DFADAC074436DAF4D5911 /* QuartzCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		598812B55A3D44D0A20FA44E /* close_button.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; path = close_button.png; sourceTree = "<group>"; };
+		5A11FB4B850E4E0B9A6D6A8C /* CDVNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVNotification.m; path = org.apache.cordova.dialogs/CDVNotification.m; sourceTree = "<group>"; };
 		5AEE5B34173C68D80009041E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		6787CCE6C10B4A70B7A9CDD3 /* CDVNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVNotification.h; path = org.apache.cordova.dialogs/CDVNotification.h; sourceTree = "<group>"; };
+		74915FD39691496B9C5583BE /* CDVMWBarcodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVMWBarcodeScanner.m; path = com.manateeworks.barcodescanner/MWBarcodeScanner/CDVMWBarcodeScanner.m; sourceTree = "<group>"; };
 		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
 		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
 		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
@@ -112,31 +124,20 @@
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* mobiscan3-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "mobiscan3-Info.plist"; path = "../mobiscan3-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		946B2315A21142B5A27F1510 /* MWScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWScannerViewController.h; path = com.manateeworks.barcodescanner/MWBarcodeScanner/MWScannerViewController.h; sourceTree = "<group>"; };
+		A5B9853B0EAF4473A351D55D /* flashbuttonoff.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; path = flashbuttonoff.png; sourceTree = "<group>"; };
+		B94A97DBF8624707B3E0295C /* MWScannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MWScannerViewController.xib; path = com.manateeworks.barcodescanner/MWBarcodeScanner/MWScannerViewController.xib; sourceTree = "<group>"; };
+		BDB1EF99781E482CA41A3094 /* flashbuttonon.png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; path = flashbuttonon.png; sourceTree = "<group>"; };
+		CD57C9D3371E41CD8D480D8F /* CoreVideo.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "mobiscan3/config.xml"; sourceTree = "<group>"; };
-		5A11FB4B850E4E0B9A6D6A8C /* CDVNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVNotification.m"; path = "org.apache.cordova.dialogs/CDVNotification.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		6787CCE6C10B4A70B7A9CDD3 /* CDVNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVNotification.h"; path = "org.apache.cordova.dialogs/CDVNotification.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		0C949E3E59A2427B8ACA696F /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "CDVNotification.bundle"; path = "CDVNotification.bundle"; sourceTree = "<group>"; };
-		74915FD39691496B9C5583BE /* CDVMWBarcodeScanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVMWBarcodeScanner.m"; path = "com.manateeworks.barcodescanner/MWBarcodeScanner/CDVMWBarcodeScanner.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		196890B89A0E4C148F010FED /* MWScannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MWScannerViewController.m"; path = "com.manateeworks.barcodescanner/MWBarcodeScanner/MWScannerViewController.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		35B7ECC0373544848DF99B0B /* MWOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MWOverlay.m"; path = "com.manateeworks.barcodescanner/MWBarcodeScanner/MWOverlay.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		B94A97DBF8624707B3E0295C /* MWScannerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MWScannerViewController.xib"; path = "com.manateeworks.barcodescanner/MWBarcodeScanner/MWScannerViewController.xib"; sourceTree = "<group>"; fileEncoding = 4; };
-		EE41F308EB9A40B99D6EADE1 /* libBarcodeScanner.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libBarcodeScanner.a"; path = "mobiscan3/Plugins/com.manateeworks.barcodescanner/MWBarcodeScanner/libBarcodeScanner.a"; sourceTree = "<group>"; fileEncoding = 4; };
-		081DC5C34BD04E4ABF4653FA /* CDVMWBarcodeScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVMWBarcodeScanner.h"; path = "com.manateeworks.barcodescanner/MWBarcodeScanner/CDVMWBarcodeScanner.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		F1DB909624144514A8D74374 /* BarcodeScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BarcodeScanner.h"; path = "com.manateeworks.barcodescanner/MWBarcodeScanner/BarcodeScanner.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		946B2315A21142B5A27F1510 /* MWScannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MWScannerViewController.h"; path = "com.manateeworks.barcodescanner/MWBarcodeScanner/MWScannerViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		ED975366BCAC4A8694FF324B /* MWOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MWOverlay.h"; path = "com.manateeworks.barcodescanner/MWBarcodeScanner/MWOverlay.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		598812B55A3D44D0A20FA44E /* close_button.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "close_button.png"; path = "close_button.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		BDB1EF99781E482CA41A3094 /* flashbuttonon.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "flashbuttonon.png"; path = "flashbuttonon.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		A5B9853B0EAF4473A351D55D /* flashbuttonoff.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "flashbuttonoff.png"; path = "flashbuttonoff.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		1F2DD381EC4548479EB9D3E2 /* overlay.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "overlay.png"; path = "overlay.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		423098ECADB84300AF718614 /* overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "overlay@2x.png"; path = "overlay@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		CD57C9D3371E41CD8D480D8F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreVideo.framework"; path = "System/Library/Frameworks/CoreVideo.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		4F2DFADAC074436DAF4D5911 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		F4459463C76D4A31B470AFFF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		ED975366BCAC4A8694FF324B /* MWOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWOverlay.h; path = com.manateeworks.barcodescanner/MWBarcodeScanner/MWOverlay.h; sourceTree = "<group>"; };
+		EE41F308EB9A40B99D6EADE1 /* libBarcodeScanner.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libBarcodeScanner.a; path = mobiscan3/Plugins/com.manateeworks.barcodescanner/MWBarcodeScanner/libBarcodeScanner.a; sourceTree = "<group>"; };
+		F1DB909624144514A8D74374 /* BarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BarcodeScanner.h; path = com.manateeworks.barcodescanner/MWBarcodeScanner/BarcodeScanner.h; sourceTree = "<group>"; };
+		F4459463C76D4A31B470AFFF /* AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = mobiscan3/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +170,7 @@
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
 			);
 			name = Classes;
-			path = "mobiscan3/Classes";
+			path = mobiscan3/Classes;
 			sourceTree = SOURCE_ROOT;
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -221,7 +222,7 @@
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
-			path = "mobiscan3";
+			path = mobiscan3;
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -242,7 +243,7 @@
 				423098ECADB84300AF718614 /* overlay@2x.png */,
 			);
 			name = Resources;
-			path = "mobiscan3/Resources";
+			path = mobiscan3/Resources;
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -283,7 +284,7 @@
 				ED975366BCAC4A8694FF324B /* MWOverlay.h */,
 			);
 			name = Plugins;
-			path = "mobiscan3/Plugins";
+			path = mobiscan3/Plugins;
 			sourceTree = SOURCE_ROOT;
 		};
 		308D052D1370CCF300D202BF /* icons */ = {
@@ -363,8 +364,8 @@
 			dependencies = (
 				301BF551109A68C00062928A /* PBXTargetDependency */,
 			);
-			name = "mobiscan3";
-			productName = "mobiscan3";
+			name = mobiscan3;
+			productName = mobiscan3;
 			productReference = 1D6058910D05DD3D006BFB54 /* mobiscan3.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -375,8 +376,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 2GJVP4VJ54;
+					};
+				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "mobiscan3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -485,7 +491,7 @@
 				0855676DF42649C1855E670B /* CDVMWBarcodeScanner.m in Sources */,
 				05014AB02FD6487DB3AA47C3 /* MWScannerViewController.m in Sources */,
 				BB536C31FA634530BDCDF3D2 /* MWOverlay.m in Sources */,
-				A4343F148EEB4BDABDEF2C25 /* MWScannerViewController.xib in Resources */,
+				A4343F148EEB4BDABDEF2C25 /* MWScannerViewController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +546,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HAN LIN PUBLISHING CO.,LTD.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HAN LIN PUBLISHING CO.,LTD.";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -549,6 +557,10 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "mobiscan3/mobiscan3-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/mobiscan3/Plugins/com.manateeworks.barcodescanner/MWBarcodeScanner\"",
+				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -563,12 +575,9 @@
 					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "mobiscan3";
+				PRODUCT_NAME = mobiscan3;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/mobiscan3/Plugins/com.manateeworks.barcodescanner/MWBarcodeScanner\"",
-				);
 			};
 			name = Debug;
 		};
@@ -577,6 +586,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HAN LIN PUBLISHING CO.,LTD.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HAN LIN PUBLISHING CO.,LTD.";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mobiscan3/mobiscan3-Prefix.pch";
@@ -584,6 +595,10 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "mobiscan3/mobiscan3-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/mobiscan3/Plugins/com.manateeworks.barcodescanner/MWBarcodeScanner\"",
+				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -598,12 +613,9 @@
 					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "mobiscan3";
+				PRODUCT_NAME = mobiscan3;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/mobiscan3/Plugins/com.manateeworks.barcodescanner/MWBarcodeScanner\"",
-				);
 			};
 			name = Release;
 		};
@@ -617,7 +629,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HAN LIN PUBLISHING CO.,LTD.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HAN LIN PUBLISHING CO.,LTD.";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
@@ -663,7 +676,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HAN LIN PUBLISHING CO.,LTD.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HAN LIN PUBLISHING CO.,LTD.";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
@@ -710,7 +724,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "mobiscan3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
